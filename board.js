@@ -15,7 +15,7 @@ function (){
   
   let matrix=Number(prompt("enter n for nxn matrix"));
  
-  while(isNaN(matrix) && matrix==0){
+  while(isNaN(matrix) || matrix==0){
     matrix=(prompt("entera number for n for nxn matrix"));
    
   }
