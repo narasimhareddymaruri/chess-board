@@ -55,3 +55,13 @@ button{
   color:white;
   text-align: center;
 }
+button:active{
+  background-color: aliceblue;
+}
+button:hover{
+  color:#000000;
+  background-color: white;
+}
+.red{
+  color:red;
+}

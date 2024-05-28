@@ -1,4 +1,10 @@
-
+function myFunc(element){
+  for(let i of document.querySelectorAll("button")){
+    i.classList.remove("red")
+  }
+  element.classList.add("red");
+  
+}
 
 
 const board=document.getElementById("board");
